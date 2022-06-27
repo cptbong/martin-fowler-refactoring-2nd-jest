@@ -1,8 +1,8 @@
-import {printOwing} from './printOwing'
+import {printOwing} from './printOwing-refactor1'
 import {jest} from '@jest/globals'
 
 describe('Extract Function', () => {
-    it('raw function', () => {
+    it('print를 extract, printDetails는 printOwing에 종속되어진다.', () => {
         const consoleSpy = jest.spyOn(console, 'log');
         const invoice = {
             customer: 'bong',

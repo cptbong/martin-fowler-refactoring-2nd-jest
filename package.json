@@ -1,0 +1,22 @@
+{
+  "name": "martin-fowler-refactoring-2nd-jest",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/.bin/jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cptbong/martin-fowler-refactoring-2nd-jest.git"
+  },
+  "author": "cptbong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cptbong/martin-fowler-refactoring-2nd-jest/issues"
+  },
+  "homepage": "https://github.com/cptbong/martin-fowler-refactoring-2nd-jest#readme",
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}

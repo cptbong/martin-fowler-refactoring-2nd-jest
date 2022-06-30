@@ -41,5 +41,5 @@ function reportLinesRefactor(aCustomer) {
 	return lines;
 }
 
-
-export {rating, ratingRefactor, ratingCase2Refactor, reportLines, reportLinesRefactor};
+export default rating;
+export {ratingRefactor, ratingCase2Refactor, reportLines, reportLinesRefactor};

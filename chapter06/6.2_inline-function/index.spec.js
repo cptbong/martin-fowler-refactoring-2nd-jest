@@ -1,4 +1,4 @@
-import {rating, ratingRefactor, ratingCase2Refactor, reportLines, reportLinesRefactor} from './'
+import rating, {ratingRefactor, ratingCase2Refactor, reportLines, reportLinesRefactor} from './'
 
 describe('Inline Function', () => {
     it('rating raw function', () => {

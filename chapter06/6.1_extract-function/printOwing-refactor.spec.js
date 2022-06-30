@@ -1,4 +1,4 @@
-import {printOwing} from './printOwing-refactor1'
+import {printOwing} from './printOwing-refactor'
 import {jest} from '@jest/globals'
 
 describe('Extract Function', () => {
